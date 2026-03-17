@@ -1,16 +1,18 @@
+import "./globals.css";
+
 export const metadata = {
   title: "Jooby",
-  description: "Job platform"
-}
+  description: "Jobs for everyone",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
       <body>{children}</body>
     </html>
-  )
+  );
 }
